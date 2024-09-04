@@ -1,6 +1,7 @@
 {
   "name": "ineldemo",
   "private": true,
+  "homepage": "https://jheremy02.github.io/platformCourseOnline",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
