@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 
 import { Button } from 'antd'
 import 'animate.css';
-import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
+import {  HashRouter as Router , Route, Routes, Link, useLocation } from 'react-router-dom';
 import logo from './assets/logo.png'
 import categoryCourseOnline from './assets/images/categories/courseOnline.png'
 import webinars from './assets/images/categories/webinars.png'
