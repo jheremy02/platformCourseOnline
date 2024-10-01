@@ -24,6 +24,8 @@ import 'swiper/css/navigation';
 import { Link, useNavigate } from 'react-router-dom';
 import MaterialUISwitch from '../components/ToggleMode';
 import Navbar from '../components/Navbar';
+import AutomaticCarousel from '../components/AutomaticCarousel';
+import Footer from '../components/Footer';
 
 
 
@@ -261,7 +263,7 @@ function Home() {
                       alt="Shoes" className='object-cover bg-cover w-full' />
                   </figure>
                   <div className="card-body p-5">
-                    <h2 className="card-title text-base">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
+                    <h2 className="card-title text-sm">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
                     <div>
                       <div className="badge badge-accent p-2"><h3>Gratis</h3></div></div>
                   </div>
@@ -277,7 +279,7 @@ function Home() {
                       alt="Shoes" className='object-cover bg-cover w-full' />
                   </figure>
                   <div className="card-body p-5">
-                    <h2 className="card-title text-base">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
+                    <h2 className="card-title text-sm">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
                     <div>
                       <div className="badge badge-accent p-2"><h3>Gratis</h3></div></div>
                   </div>
@@ -293,7 +295,7 @@ function Home() {
                       alt="Shoes" className='object-cover bg-cover w-full' />
                   </figure>
                   <div className="card-body p-5">
-                    <h2 className="card-title text-base">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
+                    <h2 className="card-title text-sm">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
                     <div>
                       <div className="badge badge-accent p-2"><h3>Gratis</h3></div></div>
                   </div>
@@ -309,7 +311,7 @@ function Home() {
                       alt="Shoes" className='object-cover bg-cover w-full' />
                   </figure>
                   <div className="card-body p-5">
-                    <h2 className="card-title text-base">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
+                    <h2 className="card-title text-sm">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
                     <div>
                       <div className="badge badge-accent p-2"><h3>Gratis</h3></div></div>
                   </div>
@@ -325,7 +327,7 @@ function Home() {
                       alt="Shoes" className='object-cover bg-cover w-full' />
                   </figure>
                   <div className="card-body p-5">
-                    <h2 className="card-title text-base">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
+                    <h2 className="card-title text-sm">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
                     <div>
                       <div className="badge badge-accent p-2"><h3>Gratis</h3></div></div>
                   </div>
@@ -341,7 +343,7 @@ function Home() {
                       alt="Shoes" className='object-cover bg-cover w-full' />
                   </figure>
                   <div className="card-body p-5">
-                    <h2 className="card-title text-base">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
+                    <h2 className="card-title text-sm">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
                     <div>
                       <div className="badge badge-accent p-2"><h3>Gratis</h3></div></div>
                   </div>
@@ -357,7 +359,7 @@ function Home() {
                       alt="Shoes" className='object-cover bg-cover w-full' />
                   </figure>
                   <div className="card-body p-5">
-                    <h2 className="card-title text-base">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
+                    <h2 className="card-title text-sm">Curso de Especialización Análisis de Sistemas Eléctricos con el Software DIgSILENT PowerFactory</h2>
                     <div>
                       <div className="badge badge-accent p-2"><h3>Gratis</h3></div></div>
                   </div>
@@ -379,6 +381,10 @@ function Home() {
 
           </div>
         </section>
+        <section>
+          <AutomaticCarousel></AutomaticCarousel>
+        </section>
+        <Footer></Footer>
       </div>
     </div>
   )

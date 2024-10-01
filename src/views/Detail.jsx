@@ -6,11 +6,14 @@ import { FaLinkedin } from 'react-icons/fa'
 import { Accordion, AccordionActions, AccordionDetails, AccordionSummary } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Navbar from '../components/Navbar'
+import { MdOutlineFileDownload } from 'react-icons/md'
+import CommentCourse from '../components/CommentCourse'
+import Footer from '../components/Footer'
 function Detail() {
     const [dark, setDark] = useState(false)
-    const onDark={backgroundColor:'#1f2937',color:'#ffffff',}
-    const stylesAccordiom={
-        
+    const onDark = { backgroundColor: '#111827', color: '#ffffff', }
+    const stylesAccordiom = {
+
     }
     return (
         <>
@@ -55,11 +58,11 @@ function Detail() {
                                                 expandIcon={<ExpandMoreIcon className='dark:text-white' />}
                                                 aria-controls="panel1-content"
                                                 id="panel1-header"
-                                                style={dark?onDark:{borderRadius:'2rem'}}
+                                                style={dark ? onDark : { borderRadius: '2rem' }}
                                             >
                                                 Módulo 1 - Introducción a Python
                                             </AccordionSummary>
-                                            <AccordionDetails className='dark:bg-gray-700'>
+                                            <AccordionDetails className='dark:bg-gray-800'>
                                                 <div className="divide-y divide-gray-200 dark:divide-gray-700">
                                                     <div className=" flex justify-between p-4">
 
@@ -91,16 +94,16 @@ function Detail() {
                                         </Accordion>
                                         <Accordion>
                                             <AccordionSummary
-                                                expandIcon={<ExpandMoreIcon  className='dark:text-white'/>}
+                                                expandIcon={<ExpandMoreIcon className='dark:text-white' />}
                                                 className='bg-slate-950'
                                                 aria-controls="panel2-content"
                                                 id="panel2-header"
-                                                style={dark?onDark:{}}
+                                                style={dark ? onDark : {}}
                                             >
                                                 Módulo 2 - Estructura de datos
                                             </AccordionSummary>
-                                            <AccordionDetails className='dark:bg-gray-700'>
-                                            <div className="divide-y divide-gray-200 dark:divide-gray-700">
+                                            <AccordionDetails className='dark:bg-gray-800'>
+                                                <div className="divide-y divide-gray-200 dark:divide-gray-700">
                                                     <div className=" flex justify-between p-4">
 
 
@@ -132,6 +135,12 @@ function Detail() {
 
                                     </div>
 
+
+                                </div>
+                                <div className=' flex flex-col gap-4 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+                                    <CommentCourse></CommentCourse>
+                                    <CommentCourse></CommentCourse>
+                                    <CommentCourse></CommentCourse>
                                 </div>
 
                             </div>
@@ -246,6 +255,7 @@ function Detail() {
 
                         </div>
                     </div>
+                    <Footer></Footer>
                 </div>
             </div>
 
